@@ -29,7 +29,8 @@ fetch(apiURL)
         const randomColor =
           "#" + Math.floor(Math.random() * 16777215).toString(16);
         short.style.color = randomColor;
-        linkB.style.backgroundColor = randomColor;
+        linkB.style.Color = randomColor;
+        linkB.style.border = `1px solid ${randomColor}`;
         divItem.appendChild(short);
         divItem.appendChild(bN);
         divItem.appendChild(linkB);
